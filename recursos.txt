@@ -1,0 +1,44 @@
+Referências Front-End
+https://www.notion.so/Refer-ncias-Front-End-3a8a4b868eb7449d93a87f40d249588e
+
+Variáveis:
+light: #f1f1f1;
+dark: #333333;
+green-100: rgb(87, 151, 28);
+green-800: rgb(4, 42, 13);
+radius: 8px;
+-----------------------------------------------------------------------------------------------------------------
+
+Textos:
+Hero:
+ENERGY-GREEN
+Be part of the global shift towards clean sustainable energy sources
+
+Energy
+Promoting new energy technologies and solutions
+-----------------------------------------------------------------------------------------------------------------
+
+Galeria
+<figure class="cases-gallery">
+            <img src="./images/cases/case1.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case2.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case3.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case4.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case5.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case6.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case7.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case8.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case9.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case1.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case11.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case12.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case13.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case14.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case15.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case16.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case17.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case18.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case19.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case20.jpg" alt="Imagem do case" loading="lazy">
+            <img src="./images/cases/case21.jpg" alt="Imagem do case" loading="lazy">
+        </figure>
