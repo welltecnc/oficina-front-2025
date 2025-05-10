@@ -1,0 +1,45 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variáveis CSS */
+:root{
+    --color-light: #f1f1f1;
+    --color-dark: #333333;
+    --color-green-100: rgb(87, 151, 28);
+    --color-green-800: rgb(4, 42, 13);
+    --radius: 8px;
+}
+
+/*************** formatações base ***************/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-light);
+    font-weight: 900;
+    transition: color .5s;
+}
+
+a:hover {
+    color: var(--color-green-100);
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+/*************** fim formatações base ***************/
