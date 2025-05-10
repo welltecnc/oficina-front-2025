@@ -166,3 +166,27 @@ span {
     letter-spacing: 3px;
 }
 /*********************** Fim Energy Solutuions ***********************/
+
+/***********************   Cases Study   ***********************/
+.cases-gallery {
+    columns: 3 300px;
+}
+
+.cases-gallery img {
+    padding: .5rem 0;
+    border-radius: var(--radius);    
+    animation: gridAnimation both;
+    animation-timeline: view(70% 5%) ;
+}
+
+@keyframes gridAnimation {
+    from{
+        opacity: 0;
+        scale: .7;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }    
+}
+/*********************** Fim Cases Study ***********************/
