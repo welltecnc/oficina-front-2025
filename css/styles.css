@@ -6,13 +6,13 @@
 }
 
 /* Variáveis CSS */
-:root{
+:root {
     --color-light: #f1f1f1;
     --color-dark: #333333;
     --color-green-100: rgb(87, 151, 28);
     --color-green-800: rgb(4, 42, 13);
     --radius: 8px;
-    --gradient: linear-gradient(to top,rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)); 
+    --gradient: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .3));
 }
 
 /*************** formatações base ***************/
@@ -35,7 +35,8 @@ a:hover {
     color: var(--color-green-100);
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
 }
 
@@ -43,6 +44,7 @@ img {
     display: block;
     max-width: 100%;
 }
+
 /*************** fim formatações base ***************/
 
 
@@ -59,7 +61,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   
+
 }
 
 .header {
@@ -83,7 +85,7 @@ span {
     gap: 2rem;
 }
 
-.sanduiche{
+.sanduiche {
     cursor: pointer;
     position: relative;
     z-index: 2;
@@ -113,3 +115,54 @@ span {
 /*************** Fim Hero da página ***************/
 
 
+/***********************   Energy Solutuions   ***********************/
+.container {
+    padding: 1rem 4rem;
+    margin-top: 3rem;
+}
+
+.titles {
+    font-size: 4.5rem;
+    width: 60%;
+    margin: 2rem 0;
+}
+
+.energy-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.energy-grid-item {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.energy-grid-item img {
+    border-radius: var(--radius);
+    filter: grayscale(1);
+    transition: .5s;
+}
+
+.energy-grid-item:hover img {
+    filter: grayscale(0);
+    scale: 1.05;
+}
+
+.energy-grid-item p {
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+.energy-grid-item:hover p {
+    letter-spacing: 3px;
+}
+/*********************** Fim Energy Solutuions ***********************/
