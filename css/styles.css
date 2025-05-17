@@ -190,3 +190,41 @@ span {
     }    
 }
 /*********************** Fim Cases Study ***********************/
+
+
+/*Responsividade*/
+
+@media(width <=1024px){
+
+    .sanduiche{
+        display: block;
+    }
+    .header-menu{
+        width: 100%;
+        height: 100dvh;
+        background: var(--color-green-800);
+        position: absolute;
+        z-index: 1;
+        top:0;
+        left: -100%;
+        gap:0;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        transition: 0.5s;
+    }
+    .active{
+        left: 0;
+    }
+
+    .sanduiche.active .barra:first-child{
+        transform: translateY(8px) rotate(360deg) rotate(45deg);
+    }
+    .sandiche.active .barra:nth-child(2){
+        opacity: 0;
+    }
+    .sandiche.active .barra:last-child{
+        transform: translateY(-8px) rotate(-360deg) rotate(-45deg);
+    }
+
+}
