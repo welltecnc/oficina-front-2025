@@ -53,7 +53,7 @@ img {
     width: 100%;
     min-height: 100dvh;
     padding: 3rem;
-    background-image: var(--gradient), url(../images/index/banner.jpg);
+    /* background-image: var(--gradient), url(../images/index/banner.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -62,6 +62,10 @@ img {
     flex-direction: column;
     justify-content: space-between;
 
+}
+
+.banner #image{
+    width: 100%;
 }
 
 .header {
